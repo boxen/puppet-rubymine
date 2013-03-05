@@ -1,6 +1,8 @@
-class rubymine {
+class rubymine (
+  $version = '5.0.2',
+) {
   package { 'RubyMine':
-    provider   => 'appdmg',
-    source => 'http://download.jetbrains.com/ruby/RubyMine-5.0.1.dmg'
+    provider => 'appdmg',
+    source   => "http://download.jetbrains.com/ruby/RubyMine-${version}.dmg",
   }
 }
