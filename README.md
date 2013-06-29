@@ -1,5 +1,7 @@
 # RubyMine
 
+[![Build Status](https://travis-ci.org/boxen/puppet-rubymine.png?branch=master)](https://travis-ci.org/boxen/puppet-rubymine)
+
 ## Usage
 
 ```puppet
