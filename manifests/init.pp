@@ -1,5 +1,5 @@
 class rubymine (
-  $version = '5.4.3',
+  $version = '6.0',
 ) {
   package { 'RubyMine':
     provider => 'appdmg',
